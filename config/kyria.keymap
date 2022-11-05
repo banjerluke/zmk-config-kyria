@@ -8,6 +8,35 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        enter_kl {
+            bindings = <&kp ENTER>;
+            key-positions = <20 21>;
+        };
+
+        backspace_jl {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 21>;
+        };
+
+        backspace_jk {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
+        };
+
+        tab_df {
+            bindings = <&kp TAB>;
+            key-positions = <15 16>;
+        };
+
+        escape_uio {
+            bindings = <&kp ESCAPE>;
+            key-positions = <7 8 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
