@@ -34,9 +34,21 @@
         escape_uio {
             bindings = <&kp ESCAPE>;
             key-positions = <7 8 9>;
+            timeout-ms = 50;
         };
     };
 
+/*
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
+*/
+
+// See https://zmk.dev/docs/behaviors/key-press
     keymap {
         compatible = "zmk,keymap";
 
