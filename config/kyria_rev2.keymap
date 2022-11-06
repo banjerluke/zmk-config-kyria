@@ -10,10 +10,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    chosen {
-        zmk,matrix_transform = &five_column_transform;
-    };
-
     behaviors {
         hrml: homerowmods_left {
             compatible = "zmk,behavior-hold-tap";
