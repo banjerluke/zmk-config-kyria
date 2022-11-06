@@ -46,7 +46,6 @@
         };
     };
 */
-    // See https://zmk.dev/docs/behaviors/key-press
 
     keymap {
         compatible = "zmk,keymap";
