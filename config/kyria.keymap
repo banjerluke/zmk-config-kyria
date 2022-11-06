@@ -69,28 +69,28 @@
 
         num_sym {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &kp NUMBER_7  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans        &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans
+ &none  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q                                  &kp Q  &kp Q  &kp NUMBER_7  &kp Q  &kp Q  &none
+ &none  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q                                  &kp Q  &kp Q        &kp Q  &kp Q  &kp Q  &none
+ &none  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q        &kp Q  &kp Q  &kp Q  &none
+                         &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q        &kp Q
             >;
         };
 
         nav {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &none  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q                                  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &none
+ &none  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q                                  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &none
+ &none  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &none
+                         &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q  &kp Q
             >;
         };
 
         utility {
             bindings = <
- &trans  &kp C_BRI_DN  &kp C_BRI_UP  &trans  &trans       &trans                                  &kp C_PREV  &kp C_NEXT  &kp C_PLAY_PAUSE  &trans  &trans  &trans
- &trans        &trans        &trans  &trans  &trans       &trans                                      &trans      &trans            &trans  &trans  &trans  &trans
- &trans        &trans        &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans      &trans      &trans            &trans  &trans  &trans  &trans
-                                     &trans  &trans  &kp C_POWER  &trans  &trans  &trans  &trans      &trans      &trans            &trans
+ &none  &kp C_BRI_DN  &kp C_BRI_UP  &kp Q  &kp Q       &kp Q                                  &kp C_PREV  &kp C_NEXT  &kp C_PLAY_PAUSE  &kp Q  &kp Q  &none
+ &none        &kp Q        &kp Q  &kp Q  &kp Q       &kp Q                                      &kp Q      &kp Q            &kp Q  &kp Q  &kp Q  &none
+ &none        &kp Q        &kp Q  &kp Q  &kp Q       &kp Q  &kp Q  &kp Q  &kp Q  &kp Q      &kp Q      &kp Q            &kp Q  &kp Q  &kp Q  &none
+                                     &kp Q  &kp Q  &kp C_POWER  &kp Q  &kp Q  &kp Q  &kp Q      &kp Q      &kp Q            &kp Q
             >;
         };
     };
