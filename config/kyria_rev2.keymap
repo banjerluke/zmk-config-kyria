@@ -57,7 +57,7 @@
         };
 
         backspace_jk {
-            bindings = <&mt LALT BACKSPACE>;
+            bindings = <&kp LA(BACKSPACE)>;
             key-positions = <19 20>;
         };
 
