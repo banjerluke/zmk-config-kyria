@@ -15,8 +15,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_LEFT";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <75>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <100>;
             global-quick-tap;
             flavor = "tap-preferred";
             bindings =
@@ -30,8 +30,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_RIGHT";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <75>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <100>;
             global-quick-tap;
             flavor = "tap-preferred";
             bindings =
@@ -117,7 +117,7 @@
                                              &none         &trans  &kp LSHIFT      &mo 1      &mo 3      &mo 2  &kp SPACE  &kp RSHIFT         &trans             &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         num_sym {
