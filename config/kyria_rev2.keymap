@@ -141,8 +141,8 @@
         util {
             bindings = <
   &none  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)    &kp LG(T)                                  &kp C_PREV  &kp C_NEXT  &kp C_PLAY_PAUSE  &kp C_BRI_DN  &kp C_BRI_UP   &none
-  &none  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)    &kp LG(G)                                      &trans      &trans            &trans        &trans        &trans   &none
-  &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)    &kp LG(B)  &trans  &trans  &trans  &trans      &trans      &trans            &trans        &trans        &trans   &none
+  &none  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)    &kp LG(G)                                  &kp LG(LC(LA(LS(H))))  &kp LG(LC(LA(LS(J))))  &kp LG(LC(LA(LS(K))))  &kp LG(LC(LA(LS(L))))  &kp LG(LC(LA(LS(SEMICOLON))))  &none
+  &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)    &kp LG(B)  &trans  &trans  &trans  &trans  &kp LG(LC(LA(LS(N))))  &kp LG(LC(LA(LS(M))))  &kp LG(LC(LA(LS(COMMA))))  &kp LG(LC(LA(LS(DOT))))  &kp LG(LC(LA(LS(FSLH)))) &none
                                    &none     &trans  &kp C_POWER  &trans  &trans  &trans  &trans      &trans      &trans             &none
             >;
         };
