@@ -49,54 +49,61 @@
         enter_kl {
             bindings = <&kp ENTER>;
             key-positions = <20 21>;
-            timeout-ms = <30>;
+            timeout-ms = <28>;
         };
 
         backspace_jl {
             bindings = <&kp BACKSPACE>;
             key-positions = <19 21>;
+            timeout-ms = <40>;
         };
 
         backspace_jk {
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <19 20>;
+            timeout-ms = <40>;
         };
 
         tab_df {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
+            timeout-ms = <40>;
         };
 
-        // escape_uio {
-        //     bindings = <&kp ESCAPE>;
-        //     key-positions = <7 8 9>;
-        //     timeout-ms = <40>;
-        // };
+        escape_uio {
+            bindings = <&kp ESCAPE>;
+            key-positions = <7 8 9>;
+            timeout-ms = <30>;
+        };
 
         enter_sd {
             bindings = <&kp ENTER>;
             key-positions = <14 15>;
-            timeout-ms = <30>;
+            timeout-ms = <28>;
         };
 
         space_fg {
             bindings = <&kp SPACE>;
             key-positions = <16 17>;
+            timeout-ms = <40>;
         };
 
-        // escape_wer {
-        //     bindings = <&kp ESCAPE>;
-        //     key-positions = <2 3 4>;
-        // };
+        escape_wer {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 3 4>;
+            timeout-ms = <30>;
+        };
 
         backspace_sf {
             bindings = <&kp BACKSPACE>;
             key-positions = <14 16>;
+            timeout-ms = <40>;
         };
 
         delete_xf {
             bindings = <&kp DELETE>;
             key-positions = <26 16>;
+            timeout-ms = <40>;
         };
     };
 
