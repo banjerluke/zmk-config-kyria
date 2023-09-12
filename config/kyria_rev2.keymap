@@ -46,6 +46,12 @@
     combos {
         compatible = "zmk,combos";
 
+        semicolon fr {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <4 16>;
+            timeout-ms = <30>;
+        };
+
         enter_kl {
             bindings = <&kp ENTER>;
             key-positions = <20 21>;
