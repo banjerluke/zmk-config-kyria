@@ -46,7 +46,7 @@
     combos {
         compatible = "zmk,combos";
 
-        semicolon fr {
+        semicolon_fr {
             bindings = <&kp SEMICOLON>;
             key-positions = <4 16>;
             timeout-ms = <30>;
