@@ -49,7 +49,7 @@
         enter_kl {
             bindings = <&kp ENTER>;
             key-positions = <20 21>;
-            timeout-ms = <28>;
+            timeout-ms = <20>;
         };
 
         backspace_jl {
@@ -61,7 +61,7 @@
         backspace_jk {
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <19 20>;
-            timeout-ms = <40>;
+            timeout-ms = <30>;
         };
 
         tab_df {
@@ -79,7 +79,7 @@
         enter_sd {
             bindings = <&kp ENTER>;
             key-positions = <14 15>;
-            timeout-ms = <28>;
+            timeout-ms = <20>;
         };
 
         space_fg {
