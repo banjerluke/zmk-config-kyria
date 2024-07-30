@@ -133,7 +133,7 @@
                                              &none         &trans  &kp LSHIFT      &mo 1      &mo 3      &mo 2  &kp SPACE  &kp RSHIFT         &trans             &none
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DN &inc_dec_kp UP DN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp UP DOWN>;
         };
 
         num_sym {
