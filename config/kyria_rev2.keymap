@@ -130,7 +130,7 @@
   &none          &kp Q         &kp W         &kp E          &kp R       &kp T                                                   &kp Y          &kp U             &kp I           &kp O             &kp P   &none
   &none          &kp A         &kp S         &kp D          &kp F       &kp G                                                   &kp H          &kp J             &kp K           &kp L  &kp SINGLE_QUOTE   &none
   &none  &hrml LCTRL Z  &hrml LALT X  &hrml LGUI C  &hrml LSHFT V       &kp B  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT       &kp N  &hrmr RSHFT M  &hrmr RGUI COMMA  &hrmr RALT DOT  &hrmr RCTRL FSLH   &none
-                                             &none      &hrml CAPS F23  &kp LSHIFT      &mo 1      &mo 3      &mo 2  &kp SPACE  &kp RSHIFT      &hrmr CAPS F24             &none
+                                             &none      &hrml CAPS LA(LS(LG(F18)))  &kp LSHIFT      &mo 1      &mo 3      &mo 2  &kp SPACE  &kp RSHIFT      &hrmr CAPS LA(LS(LG(F19)))             &none
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp UP DOWN>;
@@ -174,10 +174,10 @@
 
         game {
             bindings = <
- &trans  &kp TAB          &kp Q         &kp W         &kp E          &kp R                                                         &trans &trans &trans &trans &trans &trans 
- &trans  &kp LCTRL        &kp A         &kp S         &kp D          &kp F                                                         &trans &trans &trans &trans &trans &trans 
- &trans  &kp LSHFT        &kp Z         &kp X         &kp C          &kp V        &tog 5     &kp LSHFT  &kp LSHFT  &kp LSHFT       &trans &trans &trans &trans &trans &trans 
-                                           &none        &kp LALT        &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp TAB       &kp Q         &kp W         &kp E          &kp R                                                         &trans &trans &trans &trans &trans &trans 
+ &trans  &kp LCTRL     &kp A         &kp S         &kp D          &kp F                                                         &trans &trans &trans &trans &trans &trans 
+ &trans  &kp LSHFT     &kp Z         &kp X         &kp C          &kp V        &tog 5     &kp LSHFT  &kp LSHFT  &kp LSHFT       &trans &trans &trans &trans &trans &trans 
+            &none       &kp LALT      &kp LSHFT      &kp SPACE      &kp ENTER                                                   &trans &trans &trans &trans &trans
             >;
         };
     };
