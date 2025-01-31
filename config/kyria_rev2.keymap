@@ -70,6 +70,18 @@
             timeout-ms = <30>;
         };
 
+        enter_kl {
+            bindings = <&kp LBKT>;
+            key-positions = <31 32>;
+            timeout-ms = <40>;
+        };
+
+        backspace_jk {
+            bindings = <&kp RBKT>;
+            key-positions = <32 33>;
+            timeout-ms = <40>;
+        };
+
         tab_df {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
