@@ -70,13 +70,13 @@
             timeout-ms = <30>;
         };
 
-        enter_kl {
+        lbkt_r {
             bindings = <&kp LBKT>;
             key-positions = <31 32>;
             timeout-ms = <40>;
         };
 
-        backspace_jk {
+        rbkt_r {
             bindings = <&kp RBKT>;
             key-positions = <32 33>;
             timeout-ms = <40>;
