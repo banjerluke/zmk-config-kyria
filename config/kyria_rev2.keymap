@@ -147,9 +147,9 @@
 
         nav {
             bindings = <
-  &none     &trans    &trans    &trans     &trans  &trans                                  &kp HOME    &kp PG_DN      &kp PG_UP     &kp END  &trans   &none
-  &none     &trans    &trans    &trans     &trans  &trans                                  &kp LEFT     &kp DOWN         &kp UP   &kp RIGHT  &trans   &none
-  &none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans  &trans  &trans  &trans  &trans    &trans  &kp K_CMENU  &kp BACKSPACE  &kp DELETE  &trans   &none
+  &none     &trans    &trans    &trans     &trans  &trans                                  &kp LBKT    &kp PG_DN      &kp PG_UP   &kp LBKT   &kp RBKT      &none
+  &none     &trans    &trans    &trans     &trans  &trans                                  &kp LEFT    &kp DOWN       &kp UP      &kp RIGHT  &trans        &none
+  &none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp HOME    &kp BACKSPACE  &kp DELETE  &kp END    &kp K_CMENU   &none
                                  &none     &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans          &none
             >;
         };
