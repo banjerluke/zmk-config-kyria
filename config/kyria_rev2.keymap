@@ -70,18 +70,6 @@
             timeout-ms = <30>;
         };
 
-        lbkt_r {
-            bindings = <&kp LBKT>;
-            key-positions = <31 32>;
-            timeout-ms = <40>;
-        };
-
-        rbkt_r {
-            bindings = <&kp RBKT>;
-            key-positions = <32 33>;
-            timeout-ms = <40>;
-        };
-
         tab_df {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
